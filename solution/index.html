@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-element challenge</title>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="challenge.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pseudo-element challenge</h1>
+      <p>
+        <strong>
+          Do not change the HTML for this page. Only edit the CSS to complete
+          each task.</strong
+        >
+      </p>
+    </header>
+
+    <section class="task-one">
+      <h2>Task 1: drop caps</h2>
+      <p>
+        Use a pseudo-element to make the first letter of this paragraph twice as
+        large as the rest of the text. It should also be bold and red.
+      </p>
+    </section>
+
+    <hr />
+
+    <section class="task-two">
+      <h2>Task 2: input placeholders</h2>
+      <form>
+        <p>
+          The input's placeholder text is too low contrast. Make it a darker
+          shade of grey. <strong>Hint</strong>: browsers change the
+          <code>opacity</code> of placeholders, so you might need to reset this
+          for your colours to change correctly.
+        </p>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="e.g. karl@aol.biz" />
+      </form>
+    </section>
+
+    <hr />
+
+    <section class="task-three">
+      <h2>Task 3: quotation marks</h2>
+      <p>
+        Add large quotation marks before and after this quote:
+      </p>
+      <blockquote>
+        You miss 100% of the shots you don't take
+      </blockquote>
+    </section>
+
+    <hr />
+
+    <section class="task-four">
+      <h2>Task 4: offset underline</h2>
+      <p>
+        Put a <code>4rem</code> wide box underline underneath the above title.
+      </p>
+    </section>
+
+    <hr />
+
+    <section class="task-five">
+      <h2>Task 5: clickable cards</h2>
+      <p>
+        The below cards have links inside their headings. Make clicking
+        <em>anywhere</em> on the card trigger the link,
+        <strong>without adding any new <code>&lt;a></code> elements</strong>
+      </p>
+      <ul class="row">
+        <li class="card">
+          <h3>
+            <a href="https://pokeapi.co/api/v2/pokemon/bulbasaur">Bulbasaur</a>
+          </h3>
+          <img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+            alt=""
+          />
+          <p>
+            Bulbasaur can be seen napping in bright sunlight. There is a seed on
+            its back. By soaking up the sun’s rays, the seed grows progressively
+            larger.
+          </p>
+        </li>
+        <li class="card">
+          <h3>
+            <a href="https://pokeapi.co/api/v2/pokemon/charmander"
+              >Charmander</a
+            >
+          </h3>
+          <img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+            alt=""
+          />
+          <p>
+            The flame that burns at the tip of its tail is an indication of its
+            emotions. The flame wavers when Charmander is enjoying itself. If
+            the Pokémon becomes enraged, the flame burns fiercely.
+          </p>
+        </li>
+        <li class="card">
+          <h3>
+            <a href="https://pokeapi.co/api/v2/pokemon/squirtle">Squirtle</a>
+          </h3>
+          <img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+            alt=""
+          />
+          <p>
+            Squirtle’s shell is not merely used for protection. The shell’s
+            rounded shape and the grooves on its surface help minimize
+            resistance in water, enabling this Pokémon to swim at high speeds.
+          </p>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>

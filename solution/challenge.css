@@ -1,0 +1,41 @@
+.task-one p::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+  color: hsl(0 60% 50%);
+}
+
+.task-two input::placeholder {
+  color: hsl(180 10% 30%);
+  opacity: 1;
+}
+
+.task-three blockquote::before {
+  content: "“";
+  font-size: 2em;
+}
+
+.task-three blockquote::after {
+  content: "”";
+  font-size: 2em;
+}
+
+.task-four h2::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 1rem;
+  background-color: hsl(0 60% 50%);
+}
+
+.task-five .card {
+  position: relative;
+}
+
+.task-five .card a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
