@@ -36,20 +36,20 @@ The instructions for each task are on the page. Write your CSS in `challenge/cha
 
 ### Task 1: drop caps
 
-![]()
+![](https://user-images.githubusercontent.com/9408641/79916911-6fa39480-8421-11ea-95fc-10f9628ba060.png)
 
 ### Task 2: input placeholders
 
-![]()
+![](https://user-images.githubusercontent.com/9408641/79916884-631f3c00-8421-11ea-9a8f-14723bf91542.png)
 
 ### Task 3: quotation marks
 
-![]()
+![](https://user-images.githubusercontent.com/9408641/79916853-5995d400-8421-11ea-85b7-9af24751176c.png)
 
 ### Task 4: offset underline
 
-![]()
+![](https://user-images.githubusercontent.com/9408641/79916837-4edb3f00-8421-11ea-9599-cd154a747a2a.png)
 
 ### Task 5: clickable cards
 
-![]()
+![](https://user-images.githubusercontent.com/9408641/79916815-43881380-8421-11ea-9c4d-da6f23998932.png)
